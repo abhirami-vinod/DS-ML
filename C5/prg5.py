@@ -1,7 +1,8 @@
 import nltk
 from nltk import ngrams
 from nltk.corpus import stopwords
-nltk.download('punkit')
+nltk.download('punkt')
+nltk.download('stopwords')
 from nltk.tokenize import sent_tokenize,word_tokenize
 text1="The data given satisfies the requirement for model generation.This is used in Data Science Lab"
 print("Sentence tokenization : ")
